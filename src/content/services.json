@@ -1,0 +1,28 @@
+[
+  {
+    "id": "garments",
+    "title": "Clothing & garment equipment",
+    "description": "We manufacture and supply garment equipment and industrial machinery alongside ready clothing lines for apparel manufacturers and fashion brands globally.",
+    "items": [
+      "Garment equipment & factory machinery",
+      "T-shirts, polos & knitwear lines",
+      "Woven shirts, trousers & jackets",
+      "Corporate, uniform & workwear apparel",
+      "Custom fabric & OEM production"
+    ],
+    "orderInfo": "Supplying worldwide. Sample development in 7–10 days. Bulk lead time 25–35 days with full export documentation."
+  },
+  {
+    "id": "accessories",
+    "title": "Accessories, trims & packaging",
+    "description": "We supply end-to-end garment accessories, trims, and branded export packaging to apparel manufacturers and retail brands across the globe.",
+    "items": [
+      "Export cartons, rigid gift boxes & mailers",
+      "Woven & printed brand labels",
+      "Hang tags, barcode tags & seals",
+      "Poly bags, garment covers & tissue wraps",
+      "Buttons, zippers, rivets & metal trims"
+    ],
+    "orderInfo": "Bulk orders shipped internationally. Custom branding on all packaging & trims. Rapid turnaround from approved artwork."
+  }
+]

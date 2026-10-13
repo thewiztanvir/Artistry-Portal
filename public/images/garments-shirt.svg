@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="bg_WOVEN-04" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8F9FC" />
+      <stop offset="100%" stop-color="#EEF0F6" />
+    </linearGradient>
+    <pattern id="grid_WOVEN-04" width="24" height="24" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="12" x2="24" y2="12" stroke="#DADDE8" stroke-width="0.75" stroke-dasharray="2,4" opacity="0.5"/>
+      <line x1="12" y1="0" x2="12" y2="24" stroke="#DADDE8" stroke-width="0.75" stroke-dasharray="2,4" opacity="0.5"/>
+    </pattern>
+  </defs>
+
+  <!-- Canvas -->
+  <rect width="800" height="600" fill="url(#bg_WOVEN-04)" />
+  <rect width="800" height="600" fill="url(#grid_WOVEN-04)" />
+
+  <!-- Frame border with Kraft stitch accent -->
+  <rect x="24" y="24" width="752" height="552" rx="10" fill="none" stroke="#DADDE8" stroke-width="1.5" />
+  <rect x="36" y="36" width="728" height="528" rx="8" fill="none" stroke="#C99A5B" stroke-width="1.5" stroke-dasharray="6,4" opacity="0.8" />
+
+  <!-- Technical Spec Top Bar -->
+  <g transform="translate(54, 52)">
+    <rect x="0" y="0" width="85" height="24" rx="4" fill="#1C2766" />
+    <text x="42.5" y="16" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="1.5">GARMENTS</text>
+    <text x="100" y="16" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#4B5272" letter-spacing="1">SPEC REF: WOVEN-04</text>
+    <text x="680" y="16" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#C99A5B" text-anchor="end">ARTISTRY DHAKA</text>
+  </g>
+
+  <!-- Centered Product Illustration -->
+  <g>
+    
+      <path d="M275 200 L345 180 L400 215 L455 180 L525 200 L490 440 L310 440 Z" fill="#1C2766" opacity="0.85"/>
+      <polygon points="345,180 380,215 400,215 400,180" fill="#EEF0F6"/>
+      <polygon points="455,180 420,215 400,215 400,180" fill="#EEF0F6"/>
+      <line x1="400" y1="215" x2="400" y2="440" stroke="#DADDE8" stroke-width="1.5" stroke-dasharray="5,3"/>
+      <circle cx="400" cy="250" r="3" fill="#C99A5B"/>
+      <circle cx="400" cy="290" r="3" fill="#C99A5B"/>
+      <circle cx="400" cy="330" r="3" fill="#C99A5B"/>
+      <circle cx="400" cy="370" r="3" fill="#C99A5B"/>
+      <rect x="330" y="260" width="35" height="40" rx="2" fill="none" stroke="#C99A5B" stroke-width="1.5" stroke-dasharray="3,2"/>
+    
+  </g>
+
+  <!-- Bottom Spec Card -->
+  <g transform="translate(54, 480)">
+    <rect x="0" y="0" width="692" height="58" rx="6" fill="#FFFFFF" stroke="#DADDE8" stroke-width="1" filter="drop-shadow(0 2px 6px rgba(20,28,79,0.04))" />
+    <text x="20" y="26" font-family="system-ui, sans-serif" font-size="16" font-weight="600" fill="#141C4F">Woven Casual Shirts</text>
+    <text x="20" y="46" font-family="system-ui, sans-serif" font-size="12" font-weight="400" fill="#4B5272">100% Cotton Poplin & Oxford Weave</text>
+    <circle cx="660" cy="29" r="10" fill="#EEF0F6" />
+    <circle cx="660" cy="29" r="4" fill="#D6332A" />
+  </g>
+</svg>

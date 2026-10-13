@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Brand CSS Variables ──────────────────────────────────────── */
+:root {
+  --indigo:     #1C2766;
+  --ink:        #141C4F;
+  --slate:      #4B5272;
+  --kraft:      #C99A5B;
+  --thread-red: #D6332A;
+  --mist:       #EEF0F6;
+  --line:       #DADDE8;
+  --white:      #FFFFFF;
+}
+
+/* ── Base ─────────────────────────────────────────────────────── */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--white);
+  color: var(--ink);
+}
+
+/* ── Stitch divider (Kraft dashed rule) ───────────────────────── */
+.stitch-divider {
+  border: none;
+  border-top: 2px dashed var(--kraft);
+  margin: 2rem 0;
+  width: 100%;
+}
+
+/* ── Scroll-reveal animation ──────────────────────────────────── */
+.reveal {
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity 250ms ease, transform 250ms ease;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Respect reduced-motion preference */
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
+/* ── Focus-visible accessibility styles ───────────────────────── */
+:focus-visible {
+  outline: 2px solid var(--indigo);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+/* ── Button utility ───────────────────────────────────────────── */
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center;
+    @apply bg-indigo text-white;
+    @apply text-sm font-semibold;
+    @apply px-5 py-3 rounded-btn;
+    @apply transition-opacity duration-150;
+  }
+  .btn-primary:hover {
+    @apply opacity-90;
+  }
+
+  /* Inverted variant for use on Indigo backgrounds */
+  .btn-inverted {
+    @apply inline-flex items-center justify-center;
+    @apply bg-white text-indigo;
+    @apply text-sm font-semibold;
+    @apply px-5 py-3 rounded-btn;
+    @apply transition-opacity duration-150;
+    border: 1px solid var(--line);
+  }
+  .btn-inverted:hover {
+    @apply opacity-90;
+  }
+
+  /* Link style */
+  .link-indigo {
+    @apply text-indigo underline underline-offset-2;
+    @apply transition-opacity duration-150;
+  }
+  .link-indigo:hover {
+    @apply opacity-75;
+  }
+}

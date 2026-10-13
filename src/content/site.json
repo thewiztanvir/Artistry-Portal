@@ -1,0 +1,18 @@
+{
+  "name": "Artistry Accessories & Packaging",
+  "tagline": "Global garments & accessories manufacturer",
+  "shortName": "Artistry A&P",
+  "contact": {
+    "address": "Flat 4D, Silver Rain Tower, 88, Bijoy Nagar, Noya Paltan, Dhaka, Bangladesh",
+    "shortAddress": "Bijoy Nagar, Noya Paltan, Dhaka",
+    "phone": "+880 1700 000000",
+    "whatsapp": "+8801700000000",
+    "email": "hello@artistry-bd.com",
+    "hours": "Saturday – Thursday, 9 am – 6 pm",
+    "mapLink": "https://www.google.com/maps/search/?api=1&query=Silver+Rain+Tower+88+Bijoy+Nagar+Noya+Paltan+Dhaka+Bangladesh",
+    "directionsLink": "https://www.google.com/maps/dir/?api=1&destination=Silver+Rain+Tower+88+Bijoy+Nagar+Noya+Paltan+Dhaka+Bangladesh"
+  },
+  "social": {
+    "whatsappMessage": "Hello, I'd like to enquire about your products and manufacturing services."
+  }
+}

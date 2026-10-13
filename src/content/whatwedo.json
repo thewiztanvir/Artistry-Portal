@@ -1,0 +1,39 @@
+{
+  "sections": [
+    {
+      "id": "garments",
+      "title": "Clothing & garment equipment",
+      "intro": "We manufacture and supply industrial garment equipment and produce clothing lines for apparel factories, fashion retailers, and international brands worldwide.",
+      "offered": [
+        "Garment equipment, machines & workshop tools",
+        "T-shirts, polo shirts & knitwear collections",
+        "Woven shirts, pants, jackets & outerwear",
+        "Corporate, hospitality & workwear uniforms",
+        "Custom fashion pieces & OEM production runs"
+      ],
+      "materials": "Industrial garment machinery parts, knit & woven cotton, poly blends, jersey, pique, poplin, twill, denim, and technical fabrics.",
+      "orderApproach": "Send us your technical specification, machine requirement, or garment tech pack. We quote within 24–48 hours, produce prototypes or samples in 7–10 days, and dispatch worldwide with full export clearance."
+    },
+    {
+      "id": "accessories",
+      "title": "Accessories, trims & packaging supply",
+      "intro": "We supply the complete spectrum of branded packaging, trims, and accessories to garment manufacturers and global brand houses. Custom print, weave, and finishing available for all items.",
+      "offered": [
+        "Branded packaging: rigid boxes, mailers, cartons, tissue wrap",
+        "Woven and printed labels (neck, care, size, woven badges)",
+        "Hang tags, price tags, barcode stickers, and seal tags",
+        "Poly bags, biodegradable garment bags, and vacuum packs",
+        "Buttons, zippers, pullers, eyelets, and metal trims"
+      ],
+      "materials": "Kraft paper, cardboard, corrugated board, biodegradable poly, woven polyester, metal, and brass — tested to international compliance standards.",
+      "orderApproach": "Share your artwork or packaging brief. We prepare pre-production samples and confirm specs before bulk. Lead time 10–21 days from approved artwork with reliable international freight forwarding."
+    }
+  ],
+  "process": [
+    { "number": "01", "title": "Enquiry", "description": "Send us your spec, machinery need, or design brief. We respond within 24 hours with a competitive quote and clear timeline." },
+    { "number": "02", "title": "Sample & Spec", "description": "We prepare a pre-production sample or technical prototype for your team's review and sign-off." },
+    { "number": "03", "title": "Approval", "description": "You approve the sample, and we confirm order specifications, pricing, and dispatch schedule in writing." },
+    { "number": "04", "title": "Production", "description": "Full production commences under strict QA. We provide milestone updates so you always know where your order stands." },
+    { "number": "05", "title": "Global Delivery", "description": "Finished goods are packed to export standards, inspected, and shipped internationally with full logistics support." }
+  ]
+}

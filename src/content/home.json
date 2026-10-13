@@ -1,0 +1,34 @@
+{
+  "hero": {
+    "headline": "Garment equipment manufacturer & global clothing supplier",
+    "subheading": "Artistry manufactures garment equipment, clothing, brand trims, and custom packaging — supplying apparel factories and fashion brands around the world.",
+    "primaryCta": { "label": "Get in touch", "href": "/contact" },
+    "secondaryCta": { "label": "See our work", "href": "/our-work" }
+  },
+  "whyArtistry": {
+    "heading": "Why Artistry",
+    "points": [
+      {
+        "iconKey": "award",
+        "heading": "10+ years in the trade",
+        "body": "Established in 2014, we have manufactured and supplied for international buyers across Asia, Europe, and the Middle East — consistently on spec and on schedule."
+      },
+      {
+        "iconKey": "workflow",
+        "heading": "End-to-end, sample to delivery",
+        "body": "From technical specification to international dispatch, we manage garment equipment, clothing production, accessories, and packaging with complete milestone tracking."
+      },
+      {
+        "iconKey": "package",
+        "heading": "Everything under one roof",
+        "body": "Garment equipment, clothing, labels, trims, and export-grade packaging from a single partner means tighter quality assurance, fewer handoffs, and streamlined supply chains."
+      },
+      {
+        "iconKey": "globe",
+        "heading": "Worldwide supply & export",
+        "body": "We ship worldwide with full export clearance. Whether you need equipment for your factory floor or ready-to-shelf packaged clothing, we deliver to global standards."
+      }
+    ]
+  },
+  "featuredWorkIds": ["w01", "w05", "w09", "w02", "w06", "w10"]
+}

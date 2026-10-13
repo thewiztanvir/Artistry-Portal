@@ -1,0 +1,86 @@
+[
+  {
+    "id": "w01",
+    "title": "Export polo shirts",
+    "category": "Garments",
+    "image": "/images/garments-polo.svg",
+    "caption": "500-piece run of export polo shirts in pique fabric for a European buyer."
+  },
+  {
+    "id": "w02",
+    "title": "Corporate uniform set",
+    "category": "Garments",
+    "image": "/images/garments-uniform.svg",
+    "caption": "Full uniform set for a Dhaka-based hospitality group — shirt, trousers and jacket."
+  },
+  {
+    "id": "w03",
+    "title": "Knit jersey collection",
+    "category": "Garments",
+    "image": "/images/garments-knit.svg",
+    "caption": "Jersey crew-neck collection in 5 colours for a fashion label."
+  },
+  {
+    "id": "w04",
+    "title": "Woven casual shirts",
+    "category": "Garments",
+    "image": "/images/garments-shirt.svg",
+    "caption": "100% cotton casual shirts, 300-piece order for a local retailer."
+  },
+  {
+    "id": "w05",
+    "title": "Woven brand labels",
+    "category": "Accessories",
+    "image": "/images/accessories-labels.svg",
+    "caption": "Custom woven neck and care labels for a Dhaka fashion brand."
+  },
+  {
+    "id": "w06",
+    "title": "Hang tags and price tags",
+    "category": "Accessories",
+    "image": "/images/accessories-tags.svg",
+    "caption": "Full hang-tag and price-tag set with barcode and branding for a retail chain."
+  },
+  {
+    "id": "w07",
+    "title": "Zipper and button set",
+    "category": "Accessories",
+    "image": "/images/accessories-zipper.svg",
+    "caption": "Branded metal buttons and YKK zippers supplied for a denim range."
+  },
+  {
+    "id": "w08",
+    "title": "Poly bag assortment",
+    "category": "Accessories",
+    "image": "/images/accessories-poly.svg",
+    "caption": "Printed poly bags in three sizes for export packing of knitwear."
+  },
+  {
+    "id": "w09",
+    "title": "Branded gift boxes",
+    "category": "Packaging",
+    "image": "/images/packaging-box.svg",
+    "caption": "Rigid gift boxes with spot UV print for a premium clothing brand."
+  },
+  {
+    "id": "w10",
+    "title": "Mailer cartons",
+    "category": "Packaging",
+    "image": "/images/packaging-carton.svg",
+    "caption": "Custom printed shipping cartons for direct-to-consumer garment orders."
+  },
+  {
+    "id": "w11",
+    "title": "Retail shopping bags",
+    "category": "Packaging",
+    "image": "/images/packaging-bags.svg",
+    "caption": "Kraft paper shopping bags with ribbon handles for a boutique chain."
+  },
+  {
+    "id": "w12",
+    "title": "Tissue wrap and inserts",
+    "category": "Packaging",
+    "image": "/images/packaging-tissue.svg",
+    "caption": "Branded tissue paper and card inserts for premium unboxing experience."
+  }
+]

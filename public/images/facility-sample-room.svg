@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="mistBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F4F5F9" />
+      <stop offset="100%" stop-color="#E5E8F0" />
+    </linearGradient>
+    <pattern id="stitchPattern" width="20" height="20" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="10" x2="10" y2="10" stroke="#DADDE8" stroke-width="1" stroke-dasharray="3,3"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#mistBg)" />
+  <rect width="800" height="600" fill="url(#stitchPattern)" opacity="0.4" />
+  
+  <!-- Outer border -->
+  <rect x="20" y="20" width="760" height="560" rx="8" fill="none" stroke="#DADDE8" stroke-width="2" />
+  <rect x="32" y="32" width="736" height="536" rx="6" fill="none" stroke="#C99A5B" stroke-width="1.5" stroke-dasharray="6,4" />
+
+  <!-- Center Card -->
+  <rect x="180" y="120" width="440" height="360" rx="12" fill="#FFFFFF" stroke="#DADDE8" stroke-width="1.5" filter="drop-shadow(0 4px 12px rgba(20,28,79,0.06))"/>
+  
+  <!-- Facility & Cutting Table Graphics -->
+  <!-- Floor Grid -->
+  <path d="M210 380 L610 380 M210 420 L610 420" stroke="#EEF0F6" stroke-width="1.5"/>
+  <path d="M260 350 L260 450 M360 350 L360 450 M460 350 L460 450 M560 350 L560 450" stroke="#EEF0F6" stroke-width="1"/>
+
+  <!-- Cutting / Inspection Table in Facility -->
+  <rect x="250" y="260" width="300" height="110" rx="4" fill="#1C2766" opacity="0.08" />
+  <rect x="250" y="250" width="300" height="20" rx="2" fill="#1C2766" />
+  <line x1="270" y1="270" x2="270" y2="380" stroke="#1C2766" stroke-width="6" stroke-linecap="round"/>
+  <line x1="530" y1="270" x2="530" y2="380" stroke="#1C2766" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Fabric Rolls on Table -->
+  <rect x="280" y="215" width="70" height="35" rx="4" fill="#C99A5B" />
+  <rect x="365" y="215" width="75" height="35" rx="4" fill="#1C2766" />
+  <rect x="455" y="215" width="65" height="35" rx="4" fill="#4B5272" />
+
+  <!-- Measuring Ruler / Tape -->
+  <line x1="250" y1="260" x2="550" y2="260" stroke="#C99A5B" stroke-width="3" stroke-dasharray="8,4" />
+
+  <!-- Badge Top -->
+  <rect x="320" y="145" width="160" height="28" rx="14" fill="#EEF0F6" />
+  <text x="400" y="163" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#1C2766" text-anchor="middle" letter-spacing="1">DHAKA FACILITY</text>
+
+  <!-- Typography -->
+  <text x="400" y="420" font-family="system-ui, sans-serif" font-size="18" font-weight="600" fill="#141C4F" text-anchor="middle">Sample Room &amp; Quality Floor</text>
+  <text x="400" y="445" font-family="system-ui, sans-serif" font-size="13" font-weight="400" fill="#4B5272" text-anchor="middle">Artistry Accessories &amp; Packaging Facility</text>
+</svg>
